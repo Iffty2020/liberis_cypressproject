@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "author": "Iftikhar Mumith",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  }
+}
